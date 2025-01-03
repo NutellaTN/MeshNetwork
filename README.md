@@ -122,20 +122,6 @@ sudo ifconfig bat0 172.27.0.1/16  # Can be any other valid IP.
 sudo iwconfig
 ```
 
-Output:
-lo        no wireless extensions.
-
-eth0      no wireless extensions.
-
-wlan0     IEEE 802.11  ESSID:"my-mesh-network"
-          Mode:Ad-Hoc  Frequency:2.432 GHz  Cell: <mac_address>
-          Tx-Power=31 dBm
-          Retry short limit:7   RTS thr:off   Fragment thr:off
-          Encryption key:off
-          Power Management:on
-bat0      no wireless extensions.
-
-
 ### Step 11: Print originators/neighbor nodes
 ```bash
 sudo batctl o #Shows originators
